@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bulka TV</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__logo">
+          <div class="header__logo-img-wrapper">
+            <i class="fas fa-cat"></i>
+          </div>
+          <h1 class="header__logo-text">Bulka TV</h1>
+        </div>
+        <div class="header__search">
+          <div class="header__searchbar">
+            <input
+              type="text"
+              name="search"
+              id="header-searchbar"
+              class="header__searchbar-input"
+              placeholder="Search"
+            />
+            <button type="submit" class="header__search-button">
+              <i class="fas fa-magnifying-glass fa-sm"></i>
+            </button>
+          </div>
+          <button class="header__voice-search-button">
+            <i class="fas fa-microphone fa-xl"></i>
+          </button>
+        </div>
+        <div class="header__menu">
+          <button class="header__notifications">
+            <i class="fas fa-bell fa-xl"></i>
+          </button>
+          <div class="header__menu-dropdown">
+            <button class="header__menu-dropdown-button">
+              <i class="fas fa-paw"></i>
+            </button>
+            <div class="header__menu-dropdown-block">
+              <ul class="header__menu-dropdown-list">
+                <li class="header__menu-dropdown-list-item">
+                  <i class="fas fa-paw fa-sm"></i>
+                  <a href="#" class="header__menu-dropdown-link">Profile</a>
+                </li>
+                <li class="header__menu-dropdown-list-item">
+                  <i class="fas fa-gear fa-sm"></i>
+                  <a href="#" class="header__menu-dropdown-link">Settings</a>
+                </li>
+                <li class="header__menu-dropdown-list-item">
+                  <i class="fas fa-right-from-bracket fa-sm"></i>
+                  <a href="#" class="header__menu-dropdown-link">Log Out</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <aside class="sidebar">
+        <div class="streamers-list">
+          <div class="streamers-list__streamer-item">
+            <div class="streamers-list__streamer-img-wrapper">
+              <img
+                src="assets/img/cool.png"
+                alt="cat"
+                class="streamers-list__streamer-img"
+              />
+            </div>
+            <div class="streamers-list__streamer-name">ChuChu</div>
+            <div class="streamers-list__counter streamers-list__counter_live">
+              5.3K
+            </div>
+          </div>
+          <div class="streamers-list__streamer-item">
+            <div class="streamers-list__streamer-img-wrapper">
+              <img
+                src="assets/img/cat.png"
+                alt="cat"
+                class="streamers-list__streamer-img"
+              />
+            </div>
+            <div class="streamers-list__streamer-name">Coco</div>
+            <div class="streamers-list__counter streamers-list__counter_live">
+              5.3K
+            </div>
+          </div>
+          <div class="streamers-list__streamer-item">
+            <div class="streamers-list__streamer-img-wrapper">
+              <img
+                src="assets/img/pink.png"
+                alt="cat"
+                class="streamers-list__streamer-img"
+              />
+            </div>
+            <div class="streamers-list__streamer-name">LaLa</div>
+            <div class="streamers-list__counter streamers-list__counter_live">
+              5.3K
+            </div>
+          </div>
+          <div class="streamers-list__streamer-item">
+            <div class="streamers-list__streamer-img-wrapper">
+              <img
+                src="assets/img/kitty.png"
+                alt="cat"
+                class="streamers-list__streamer-img"
+              />
+            </div>
+            <div class="streamers-list__streamer-name">MoMo</div>
+            <div class="streamers-list__counter">5.3K</div>
+          </div>
+          <div class="streamers-list__streamer-item">
+            <div class="streamers-list__streamer-img-wrapper">
+              <img
+                src="assets/img/laughing.png"
+                alt="cat"
+                class="streamers-list__streamer-img"
+              />
+            </div>
+            <div class="streamers-list__streamer-name">TT</div>
+            <div class="streamers-list__counter streamers-list__counter_live">
+              5.3K
+            </div>
+          </div>
+          <div class="streamers-list__streamer-item">
+            <div class="streamers-list__streamer-img-wrapper">
+              <img
+                src="assets/img/supercat.png"
+                alt="cat"
+                class="streamers-list__streamer-img"
+              />
+            </div>
+            <div class="streamers-list__streamer-name">NaNa</div>
+            <div class="streamers-list__counter">5.3K</div>
+          </div>
+          <div class="streamers-list__streamer-item">
+            <div class="streamers-list__streamer-img-wrapper">
+              <img
+                src="assets/img/cool.png"
+                alt="cat"
+                class="streamers-list__streamer-img"
+              />
+            </div>
+            <div class="streamers-list__streamer-name">ToTo</div>
+            <div class="streamers-list__counter streamers-list__counter_live">
+              5.3K
+            </div>
+          </div>
+          <div class="streamers-list__streamer-item">
+            <div class="streamers-list__streamer-img-wrapper">
+              <img
+                src="assets/img/pink.png"
+                alt="cat"
+                class="streamers-list__streamer-img"
+              />
+            </div>
+            <div class="streamers-list__streamer-name">DoDo</div>
+            <div class="streamers-list__counter">5.3K</div>
+          </div>
+        </div>
+        <div class="sidebar-info">
+          <div class="sidebar-info-wrapper">
+            <h2 class="sidebar-info__title">Join the Bulka's community!</h2>
+            <div class="sidebar-info__icons">
+              <a
+                href="#"
+                class="sidebar-info__icon sidebar-info__icon_telegram"
+              >
+                <i class="fa-brands fa-telegram fa-xl"></i>
+              </a>
+              <a
+                href="#"
+                class="sidebar-info__icon sidebar-info__icon_instagram"
+              >
+                <i class="fa-brands fa-instagram fa-xl"></i>
+              </a>
+              <a
+                href="#"
+                class="sidebar-info__icon sidebar-info__icon_facebook"
+              >
+                <i class="fa-brands fa-facebook fa-xl"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <main class="main">
+        <div class="categories">
+          <div class="categories__item">All</div>
+          <div class="categories__item">Food</div>
+          <div class="categories__item">Music</div>
+          <div class="categories__item">Humans</div>
+          <div class="categories__item">Games</div>
+          <div class="categories__item">Computers</div>
+          <div class="categories__item">Comedies</div>
+          <div class="categories__item">Apartaments</div>
+          <div class="categories__item">Politics</div>
+          <div class="categories__item">Travelling</div>
+          <div class="categories__item">Fashion</div>
+          <div class="categories__item">Cooking show</div>
+          <div class="categories__item">Swimming</div>
+          <div class="categories__item">Human fun videos</div>
+          <div class="categories__item">Films</div>
+          <div class="categories__item">Series</div>
+        </div>
+        <div class="carousel-container">
+          <input type="radio" name="slider" id="item-1" checked />
+          <input type="radio" name="slider" id="item-2" />
+          <input type="radio" name="slider" id="item-3" />
+          <div class="streams-carousel">
+            <label
+              class="streams-carousel__stream-card"
+              for="item-1"
+              id="stream-1"
+            >
+              <div class="stream-preview stream-preview_live">
+                <img
+                  src="assets/img/catlogic.jpg"
+                  alt="cat"
+                  class="stream-preview__img"
+                />
+                <div class="stream-preview__counter">10.3K viewers</div>
+              </div>
+              <div class="streams-carousel__card-info">
+                <div class="stream-info streams-carousel__stream-info">
+                  <div class="stream-info__streamer-avatar-wrapper">
+                    <img
+                      src="assets/img/cat.png"
+                      alt="ava"
+                      class="stream-info__streamer-avatar"
+                    />
+                  </div>
+                  <div class="stream-info__info-block">
+                    <h2 class="stream-info__stream-title">
+                      Hurdle cat challenge
+                    </h2>
+                    <div class="stream-info__streamer-name">CoCo</div>
+                  </div>
+                </div>
+                Playing with my human
+              </div>
+            </label>
+            <label
+              class="streams-carousel__stream-card"
+              for="item-2"
+              id="stream-2"
+            >
+              <div class="stream-preview">
+                <img
+                  src="assets/img/obstacle.jpg"
+                  alt="cat"
+                  class="stream-preview__img"
+                />
+                <div class="stream-preview__counter">2 Morbillion views</div>
+              </div>
+              <div class="streams-carousel__card-info">
+                <div class="stream-info streams-carousel__stream-info">
+                  <div class="stream-info__streamer-avatar-wrapper">
+                    <img
+                      src="assets/img/cool.png"
+                      alt="ava"
+                      class="stream-info__streamer-avatar"
+                    />
+                  </div>
+                  <div class="stream-info__info-block">
+                    <h2 class="stream-info__stream-title">
+                      Where Have All the Cats
+                    </h2>
+                    <div class="stream-info__streamer-name">ChuChu</div>
+                  </div>
+                </div>
+                Hello my human
+              </div>
+            </label>
+            <label
+              class="streams-carousel__stream-card"
+              for="item-3"
+              id="stream-3"
+            >
+              <div class="stream-preview stream-carousel__stream-preview">
+                <img
+                  src="assets/img/starwars.jpg"
+                  alt="cat"
+                  class="stream-preview__img"
+                />
+                <div class="stream-preview__counter">2 Morbillion views</div>
+              </div>
+              <div class="streams-carousel__card-info">
+                <div class="stream-info streams-carousel__stream-info">
+                  <div class="stream-info__streamer-avatar-wrapper">
+                    <img
+                      src="assets/img/kitty.png"
+                      alt="ava"
+                      class="stream-info__streamer-avatar"
+                    />
+                  </div>
+                  <div class="stream-info__info-block">
+                    <h2 class="stream-info__stream-title">
+                      Where Have All the Cats
+                    </h2>
+                    <div class="stream-info__streamer-name">ZiZi</div>
+                  </div>
+                </div>
+                Hello my human
+              </div>
+            </label>
+          </div>
+        </div>
+        <div class="streams-gallery">
+          <div class="stream">
+            <div
+              class="stream-preview stream-preview_live streams-gallery__stream-preview"
+            >
+              <img
+                src="assets/img/all_gone.jpg"
+                alt="cat"
+                class="stream-preview__img"
+              />
+              <div class="stream-preview__counter">71.1K viewers</div>
+            </div>
+            <div class="stream-info streams-gallery__stream-info">
+              <div class="stream-info__streamer-avatar-wrapper">
+                <img
+                  src="assets/img/cool.png"
+                  alt="ava"
+                  class="stream-info__streamer-avatar"
+                />
+              </div>
+              <div class="stream-info__info-block">
+                <h2 class="stream-info__stream-title">
+                  Where Have All the Cats Gone?
+                </h2>
+                <div class="stream-info__streamer-name">ChuChu</div>
+              </div>
+              <button class="stream-info__stream-menu">
+                <i class="fas fa-ellipsis-v fa-xl"></i>
+              </button>
+            </div>
+          </div>
+          <div class="stream">
+            <div class="stream-preview streams-gallery__stream-preview">
+              <img
+                src="assets/img/catlogic.jpg"
+                alt="cat"
+                class="stream-preview__img"
+              />
+              <div class="stream-preview__counter">34:56</div>
+            </div>
+            <div class="stream-info streams-gallery__stream-info">
+              <div class="stream-info__streamer-avatar-wrapper">
+                <img
+                  src="assets/img/supercat.png"
+                  alt="ava"
+                  class="stream-info__streamer-avatar"
+                />
+              </div>
+              <div class="stream-info__info-block">
+                <h2 class="stream-info__stream-title">
+                  I went on a summer picnic
+                </h2>
+                <div class="stream-info__streamer-name">MoMo</div>
+              </div>
+              <button class="stream-info__stream-menu">
+                <i class="fas fa-ellipsis-v fa-xl"></i>
+              </button>
+            </div>
+          </div>
+          <div class="stream">
+            <div
+              class="stream-preview stream-preview_live streams-gallery__stream-preview"
+            >
+              <img
+                src="assets/img/uber.jpg"
+                alt="cat"
+                class="stream-preview__img"
+              />
+              <div class="stream-preview__counter">25.1K viewers</div>
+            </div>
+            <div class="stream-info streams-gallery__stream-info">
+              <div class="stream-info__streamer-avatar-wrapper">
+                <img
+                  src="assets/img/pink.png"
+                  alt="ava"
+                  class="stream-info__streamer-avatar"
+                />
+              </div>
+              <div class="stream-info__info-block">
+                <h2 class="stream-info__stream-title">Testing new Uber</h2>
+                <div class="stream-info__streamer-name">LaLa</div>
+              </div>
+              <button class="stream-info__stream-menu">
+                <i class="fas fa-ellipsis-v fa-xl"></i>
+              </button>
+            </div>
+          </div>
+          <div class="stream">
+            <div class="stream-preview streams-gallery__stream-preview">
+              <img
+                src="assets/img/iwillpee.jpg"
+                alt="cat"
+                class="stream-preview__img"
+              />
+              <div class="stream-preview__counter">30:30</div>
+            </div>
+            <div class="stream-info streams-gallery__stream-info">
+              <div class="stream-info__streamer-avatar-wrapper">
+                <img
+                  src="assets/img/pink.png"
+                  alt="ava"
+                  class="stream-info__streamer-avatar"
+                />
+              </div>
+              <div class="stream-info__info-block">
+                <h2 class="stream-info__stream-title">
+                  I'll pee in your shoes
+                </h2>
+                <div class="stream-info__streamer-name">TT</div>
+              </div>
+              <button class="stream-info__stream-menu">
+                <i class="fas fa-ellipsis-v fa-xl"></i>
+              </button>
+            </div>
+          </div>
+          <div class="stream">
+            <div
+              class="stream-preview stream-preview_live streams-gallery__stream-preview"
+            >
+              <img
+                src="assets/img/letmeout.jpg"
+                alt="cat"
+                class="stream-preview__img"
+              />
+              <div class="stream-preview__counter">Morbillion viewers</div>
+            </div>
+            <div class="stream-info streams-gallery__stream-info">
+              <div class="stream-info__streamer-avatar-wrapper">
+                <img
+                  src="assets/img/cool.png"
+                  alt="ava"
+                  class="stream-info__streamer-avatar"
+                />
+              </div>
+              <div class="stream-info__info-block">
+                <h2 class="stream-info__stream-title">Hello?</h2>
+                <div class="stream-info__streamer-name">ToTo</div>
+              </div>
+              <button class="stream-info__stream-menu">
+                <i class="fas fa-ellipsis-v fa-xl"></i>
+              </button>
+            </div>
+          </div>
+          <div class="stream">
+            <div class="stream-preview streams-gallery__stream-preview">
+              <img
+                src="assets/img/obstacle.jpg"
+                alt="cat"
+                class="stream-preview__img"
+              />
+              <div class="stream-preview__counter">13:10</div>
+            </div>
+            <div class="stream-info streams-gallery__stream-info">
+              <div class="stream-info__streamer-avatar-wrapper">
+                <img
+                  src="assets/img/laughing.png"
+                  alt="ava"
+                  class="stream-info__streamer-avatar"
+                />
+              </div>
+              <div class="stream-info__info-block">
+                <h2 class="stream-info__stream-title">New obstacle course</h2>
+                <div class="stream-info__streamer-name">NaNa</div>
+              </div>
+              <button class="stream-info__stream-menu">
+                <i class="fas fa-ellipsis-v fa-xl"></i>
+              </button>
+            </div>
+          </div>
+          <div class="stream">
+            <div
+              class="stream-preview stream-preview_live streams-gallery__stream-preview"
+            >
+              <img
+                src="assets/img/starwars.jpg"
+                alt="cat"
+                class="stream-preview__img"
+              />
+              <div class="stream-preview__counter">200.1k viewers</div>
+            </div>
+            <div class="stream-info streams-gallery__stream-info">
+              <div class="stream-info__streamer-avatar-wrapper">
+                <img
+                  src="assets/img/laughing.png"
+                  alt="ava"
+                  class="stream-info__streamer-avatar"
+                />
+              </div>
+              <div class="stream-info__info-block">
+                <h2 class="stream-info__stream-title">Watching Star Wars</h2>
+                <div class="stream-info__streamer-name">CoCo</div>
+              </div>
+              <button class="stream-info__stream-menu">
+                <i class="fas fa-ellipsis-v fa-xl"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="footer__text">Inspired by Kittisaurus</div>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
